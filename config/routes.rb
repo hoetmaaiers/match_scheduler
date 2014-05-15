@@ -1,5 +1,20 @@
 BadmintonSheduler::Application.routes.draw do
-  resources :players#, only:
+
+  namespace :csv do
+    resources :warm_ups
+    resources :poules
+    resources :poule_matches
+    resources :final
+  end
+
+  # resources :players#, only:
+  # resources :matches
+
+  # resources :warm_ups
+  # resource :warm_up_ranking
+
+  # resources :poules
+  # resources :finals
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
