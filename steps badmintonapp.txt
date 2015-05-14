@@ -1,0 +1,23 @@
+count matches need
+
+first round
+- add random players to each match
+- check if no duplicate match already exists
+ 
+second & third round
+- add random players to each match
+- check if no duplicate match already exists
+
+
+
+
+create ranking based on:
+- lost: 1 point
+- tie:  2 points
+- win:  3 points 
+
+divide players in n groups (e.g. 3)
+- arrange matches for all groups and players
+
+calculate best players on all groups
+- define finals
